@@ -1,0 +1,25 @@
+/* your styles go here */
+#signUp,#login-link{
+    color: black;
+}
+
+#signUp:hover,#login-link:hover{
+    cursor: pointer;
+    color: #999;
+    text-decoration: underline;
+}
+
+.postDesc{
+ 
+    /* line-height: 1.5em;
+    height: 3em;  
+    overflow: hidden;
+    text-overflow: ellipsis;  */
+
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+   
+}
